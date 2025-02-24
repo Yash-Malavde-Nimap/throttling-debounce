@@ -61,7 +61,9 @@ const Debounce = () => {
           borderBottom: "1px solid gray",
         }}
       />
-      <p>Debounced Value: {debouncedValue}</p>
+      <p style={{ width: "200px", textWrap: "pretty" }}>
+        Debounced Value: {debouncedValue}
+      </p>
     </div>
   );
 };
